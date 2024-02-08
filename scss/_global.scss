@@ -1,0 +1,95 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #555555;
+    background-color: #f5ece3;
+}
+
+button {
+    cursor: pointer;
+}
+
+._container {
+    max-width: 1305px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.arrow {
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(136, 136, 136, 0.3);
+    backdrop-filter: blur(14px);
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    z-index: 5;
+}
+
+.left {
+    left: 70px;
+}
+
+.right {
+    right: 70px;
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: calc(50% - 232px);
+    left: calc(50% - 80px);
+}
+
+.slick-dots li {
+    font-size: 0;
+    margin-right: 8px;
+}
+
+.slick-dots button {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    opacity: 0.5;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    transition: width 0.3s;
+}
+
+.slick-dots .slick-active button {
+    width: 21.67px;
+    height: 10px;
+    background: #fff;
+    opacity: 0.5;
+    transition: width 0.3s;
+}
+
+.cartArrow {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    background: rgba(136, 136, 136, 0.4);
+    backdrop-filter: blur(14px);
+    width: 35px;
+    height: 40px;
+    z-index: 5;
+    border: none;
+    outline: none;
+}
+
+.cartLeft {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    right: 55px;
+}
+
+.cartRight {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
